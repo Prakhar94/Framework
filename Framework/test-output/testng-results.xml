@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Setting up the test and report is generated here!]]>
+    </line>
+    <line>
+      <![CDATA[Setup complete!]]>
+    </line>
+    <line>
+      <![CDATA[Launching browser!]]>
+    </line>
+    <line>
+      <![CDATA[Redirecting to test]]>
+    </line>
+    <line>
+      <![CDATA[Flush logs to report for executed test!]]>
+    </line>
+    <line>
+      <![CDATA[Flush logs to report for executed test!]]>
+    </line>
+    <line>
+      <![CDATA[Closing the Browser here.]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2019-07-22T00:46:02Z" name="Suite" finished-at="2019-07-22T00:46:36Z" duration-ms="34927">
+    <groups>
+    </groups>
+    <test started-at="2019-07-22T00:46:02Z" name="Test" finished-at="2019-07-22T00:46:36Z" duration-ms="34927">
+      <class name="com.self.tests.LoginTest">
+        <test-method is-config="true" signature="setUpSuite()[pri:0, instance:com.self.tests.LoginTest@1d76aeea]" started-at="2019-07-22T00:46:01Z" name="setUpSuite" finished-at="2019-07-22T00:46:02Z" duration-ms="397" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Setting up the test and report is generated here!]]>
+            </line>
+            <line>
+              <![CDATA[Setup complete!]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUpSuite -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.self.tests.LoginTest@1d76aeea]" started-at="2019-07-22T00:46:02Z" name="setup" finished-at="2019-07-22T00:46:20Z" duration-ms="18054" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Launching browser!]]>
+            </line>
+            <line>
+              <![CDATA[Redirecting to test]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="startApp()[pri:0, instance:com.self.tests.LoginTest@1d76aeea]" started-at="2019-07-22T00:46:20Z" name="startApp" finished-at="2019-07-22T00:46:33Z" duration-ms="13778" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startApp -->
+        <test-method is-config="true" signature="flushLogsToReport()[pri:0, instance:com.self.tests.LoginTest@1d76aeea]" started-at="2019-07-22T00:46:33Z" name="flushLogsToReport" finished-at="2019-07-22T00:46:34Z" duration-ms="597" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Flush logs to report for executed test!]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- flushLogsToReport -->
+        <test-method is-config="true" signature="getScreenshot(org.testng.ITestResult)[pri:0, instance:com.self.tests.LoginTest@1d76aeea]" started-at="2019-07-22T00:46:34Z" name="getScreenshot" finished-at="2019-07-22T00:46:35Z" duration-ms="665" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=startApp status=SUCCESS method=LoginTest.startApp()[pri:0, instance:com.self.tests.LoginTest@1d76aeea] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getScreenshot -->
+        <test-method signature="logout()[pri:1, instance:com.self.tests.LoginTest@1d76aeea]" started-at="2019-07-22T00:46:35Z" name="logout" finished-at="2019-07-22T00:46:35Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="flushLogsToReport()[pri:0, instance:com.self.tests.LoginTest@1d76aeea]" started-at="2019-07-22T00:46:35Z" name="flushLogsToReport" finished-at="2019-07-22T00:46:35Z" duration-ms="228" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Flush logs to report for executed test!]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- flushLogsToReport -->
+        <test-method is-config="true" signature="getScreenshot(org.testng.ITestResult)[pri:0, instance:com.self.tests.LoginTest@1d76aeea]" started-at="2019-07-22T00:46:35Z" name="getScreenshot" finished-at="2019-07-22T00:46:36Z" duration-ms="663" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=logout status=SUCCESS method=LoginTest.logout()[pri:1, instance:com.self.tests.LoginTest@1d76aeea] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getScreenshot -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.self.tests.LoginTest@1d76aeea]" started-at="2019-07-22T00:46:36Z" name="tearDown" finished-at="2019-07-22T00:46:36Z" duration-ms="900" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Closing the Browser here.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.self.tests.LoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
