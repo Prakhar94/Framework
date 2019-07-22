@@ -37,7 +37,6 @@ public class Base {
 //		excel = new ExcelDataProvider();
 		configReader = new ConfigReader();
 		documentReader = new ODSDocumentReader();
-		
 		ExtentHtmlReporter reporter = new ExtentHtmlReporter(new File(System.getProperty("user.dir")+"/reports/FreeCRM"+Helper.getCurrentDateTime()+".html"));
 		report = new ExtentReports();
 		report.attachReporter(reporter);
